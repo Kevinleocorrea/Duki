@@ -25,7 +25,7 @@ a{
 }
 
 .musica{
-    background-image: url(./image/duki-banner.jpg);
+    background-image: url(../duki/image/duki-banner.jpg);
     background-position: 0% 60%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,7 +43,7 @@ a{
 }
 
 .historia{
-    background-image: url(./image/duki-banner-2.jpg);
+    background-image: url(../duki/image/duki-banner-2.jpg);
     background-position: 0% 35%;
     background-repeat: no-repeat;
     background-size: cover;
