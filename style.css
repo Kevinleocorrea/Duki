@@ -43,7 +43,7 @@ a{
 }
 
 .historia{
-    background-image: url(/image/duki-banner-2.jpg);
+    background-image: url(./image/duki-banner-2.jpg);
     background-position: 0% 35%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -108,7 +108,7 @@ footer{
 }
 
 .fondo_musica{
-    background:url(/image/duki-banner.jpg), linear-gradient(rgba(0, 0, 0, 0.455), rgba(0, 0, 0, 0.541));
+    background-image:linear-gradient(rgba(0, 0, 0, 0.455), rgba(0, 0, 0, 0.541)), url(/image/duki-banner.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -163,7 +163,7 @@ footer{
 }
 
 .fondo_historia{
-    background:url(/image/duki-banner-2.jpg), linear-gradient(rgba(0, 0, 0, 0.455), rgba(0, 0, 0, 0.541));
+    background-image: linear-gradient(rgba(0, 0, 0, 0.455), rgba(0, 0, 0, 0.541)), url(/image/duki-banner-2.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
