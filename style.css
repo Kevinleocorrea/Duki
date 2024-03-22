@@ -1,0 +1,195 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: "Krona One", sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.baners {
+    height: 17vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.duki_logo {
+    height: 15vh;
+}
+
+.logos{
+    height: 10vh;
+    margin: 3vh;
+}
+
+.musica{
+    background-image: url(./image/duki-banner.jpg);
+    background-position: 0% 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+
+    height: 30vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.musica:hover{
+    filter: grayscale(0%);
+    transition: 0.5s ease-in;
+}
+
+.historia{
+    background-image: url(./image/duki-banner-2.jpg);
+    background-position: 0% 35%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+
+    height: 30vh;
+    margin-top: 2vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.historia:hover{
+    filter: grayscale(0%);
+    transition: 0.5s ease-in;
+}
+
+.navegadores{
+    text-align: center;
+}
+
+.icons{
+    height: 10vh;
+    width: 10vh;
+}
+
+.fechas{
+    margin-top: 10vh;
+
+    text-align: center;
+}
+
+.fechas img {
+    max-width:  100vh;
+    max-height: 90vh;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.redes{
+    transition: all 300ms;
+}
+
+.redes img{
+    display: table-row;
+
+
+    margin: 40px;
+
+    height: 5vh;
+    width: 5vh;
+}
+
+.redes img:hover{
+    transform: scale(1.15);
+}
+
+.fondo_musica{
+    background: linear-gradient(rgba(0, 0, 0, 0.455), rgba(0, 0, 0, 0.541)), url(/image/duki-banner.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.musica_main{
+    margin-top: 10vh;
+}
+
+.spoti_duki{
+    background-color: rgba(183, 185, 187, 0.492);
+    
+    margin: 5vh;
+
+    max-width: 53vh;
+    max-height: 35vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+}
+
+.spoti_duki iframe{
+    margin: 10px;
+}
+
+.lanzamientos{
+    background-color: rgba(183, 185, 187, 0.492);
+    
+    margin-bottom: 5vh;
+
+    max-width: 53vh;
+    max-height: 31vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 10px;
+}
+
+.lanzamientos iframe{
+    margin: 10px;
+}
+
+.fondo_historia{
+    background: linear-gradient(rgba(0, 0, 0, 0.455), rgba(0, 0, 0, 0.541)), url(/image/duki-banner-2.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.duki_historia{
+    text-align: center;
+
+    max-width: 100vh;
+}
+
+.caja_negra{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    max-width: 100vh;
+
+    margin: 15vh 0vh 10vh 0vh
+}
