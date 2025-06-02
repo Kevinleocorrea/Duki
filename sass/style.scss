@@ -46,7 +46,7 @@ body{
               color: white;
           
                 .musica{
-                    background-image: url(/image/duki-banner.jpg);
+                    background-image: url(../image/duki-banner.jpg);
                     background-position: 0% 60%;
                     background-repeat: no-repeat;
                     background-size: cover;
@@ -85,7 +85,7 @@ body{
                 
 
                 .historia{
-                    background-image: url(/image/duki-banner-2.jpg);
+                    background-image: url(../image/duki-banner-2.jpg);
                     background-position: 0% 35%;
                     background-repeat: no-repeat;
                     background-size: cover;
@@ -126,7 +126,7 @@ body{
 
                 
                 .shop {
-                    background-image: url(/image/duki-banner-3.jpg);
+                    background-image: url(../image/duki-banner-3.jpg);
                     background-position: 0% 20%;
                     background-repeat: no-repeat;
                     background-size: cover;
@@ -168,7 +168,7 @@ body{
         }
 
         .dataDates{
-            background-image:linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%),url(./image/duki-banner-3.jpg);
+            background-image:linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%),url(../image/duki-banner-3.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-attachment:fixed;
@@ -477,7 +477,7 @@ body{
 
     .fondo_musica{
         background-image: linear-gradient(rgba(0, 0, 0, 0.455), rgba(0, 0, 0, 0.541)), 
-        url(/image/duki-banner.jpg);
+        url(../image/duki-banner.jpg);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
@@ -558,7 +558,7 @@ body{
 
     .fondo_historia{
         background-image: linear-gradient(rgba(0, 0, 0, 0.455), rgba(0, 0, 0, 0.541)), 
-        url(/image/duki-banner-2.jpg);
+        url(../image/duki-banner-2.jpg);
         background-attachment: fixed;
         background-position: center;
         background-repeat: no-repeat;
