@@ -1,0 +1,470 @@
+body {
+  background-color: black;
+  font-family: "Krona One", sans-serif;
+  font-style: normal;
+  margin: 0px;
+  padding: 0px;
+}
+body .baners {
+  display: flex;
+  justify-content: space-between;
+  height: 17vh;
+  width: 100%;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+}
+body .baners .logos {
+  height: 12vh;
+  width: 25vh;
+  margin: 2vh;
+}
+body .baners a {
+  text-decoration: none;
+  color: white;
+}
+body .baners a .duki_logo {
+  height: 15vh;
+  width: 15vh;
+  margin-right: 0vh;
+}
+body main .naveg {
+  margin-top: 5vh;
+}
+body main .naveg a {
+  text-decoration: none;
+  color: white;
+}
+body main .naveg a .musica {
+  background-image: url(/image/duki-banner.jpg);
+  background-position: 0% 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+  transition: all 500ms ease;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .naveg a .musica .navegadores {
+  text-align: center;
+}
+body main .naveg a .musica .navegadores .icons {
+  height: 10vh;
+  width: 10vh;
+  margin-bottom: -3vh;
+}
+body main .naveg a .musica .navegadores h3 {
+  font-size: xx-large;
+  text-align: center;
+  color: rgb(220, 20, 60);
+}
+body main .naveg a .musica:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+  transition: 0.5s ease-in;
+}
+body main .naveg a .historia {
+  background-image: url(/image/duki-banner-2.jpg);
+  background-position: 0% 35%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+  transition: all 500ms ease;
+  height: 30vh;
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .naveg a .historia .navegadores {
+  text-align: center;
+}
+body main .naveg a .historia .navegadores .icons {
+  height: 10vh;
+  width: 10vh;
+  margin-bottom: -3vh;
+}
+body main .naveg a .historia .navegadores h3 {
+  font-size: xx-large;
+  text-align: center;
+  color: rgb(220, 20, 60);
+}
+body main .naveg a .historia:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+  transition: 0.5s ease-in;
+}
+body main .naveg a .shop {
+  background-image: url(/image/duki-banner-3.jpg);
+  background-position: 0% 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(100%);
+  transition: all 500ms ease;
+  height: 30vh;
+  margin-top: 2vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .naveg a .shop .navegadores {
+  text-align: center;
+}
+body main .naveg a .shop .navegadores .icons {
+  height: 10vh;
+  width: 10vh;
+  margin-bottom: -3vh;
+}
+body main .naveg a .shop .navegadores h3 {
+  font-size: xx-large;
+  text-align: center;
+  color: rgb(220, 20, 60);
+}
+body main .naveg a .shop:hover {
+  transform: scale(1.1);
+  filter: grayscale(0%);
+  transition: 0.5s ease-in;
+}
+body main .dataDates {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(./image/duki-banner-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin-top: 10vh;
+  padding: 15vh 0 15vh 0;
+}
+body main .dataDates h3 {
+  font-size: xx-large;
+  text-align: center;
+  color: white;
+}
+body main .dataDates .datesContainerNort {
+  margin-bottom: 15vh;
+}
+body main .dataDates .datesContainerNort .fechas {
+  margin-top: 10vh;
+  text-align: center;
+}
+body main .dataDates .datesContainerNort .seccionUno {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(6, auto);
+  grid-auto-flow: column;
+  gap: 5vh;
+  list-style-type: none;
+  padding: 0;
+}
+body main .dataDates .datesContainerNort .seccionUno li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vh;
+  height: 8vh;
+}
+body main .dataDates .datesContainerNort .seccionUno li .entradas {
+  color: inherit;
+  text-decoration: none;
+  margin-top: 2.5vh;
+  max-width: 25vh;
+  max-height: 22.3vh;
+  transition: all 500ms ease;
+}
+body main .dataDates .datesContainerNort .seccionUno li .entradas .dataTour {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  text-align: left;
+  width: 60vh;
+  height: 5vh;
+}
+body main .dataDates .datesContainerNort .seccionUno li .entradas .dataTour .carmesi {
+  color: rgb(220, 20, 60);
+  margin-left: 5vh;
+}
+body main .dataDates .datesContainerNort .seccionUno li .entradas .dataTour .blan {
+  color: white;
+}
+body main .dataDates .datesContainerNort .seccionUno li .entradas .dataTour .lugar {
+  margin-left: 5vh;
+  text-align: left;
+  font-size: 20px;
+}
+body main .dataDates .datesContainerNort .seccionUno li .entradas .dataTour .lugar .blan {
+  color: white;
+}
+body main .dataDates .datesContainerNort .seccionUno li .entradas .dataTour .lugar .grey {
+  color: rgb(220, 20, 60);
+  margin-top: -3vh;
+  font-size: 10px;
+}
+body main .dataDates .datesContainerNort .seccionUno li .entradas .agotado {
+  color: rgb(138, 43, 226);
+  filter: drop-shadow(0px 5px 5px rgb(138, 43, 226));
+}
+body main .dataDates .datesContainerNort .seccionUno li .entradas:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0px 5px 5px rgb(220, 20, 60));
+}
+body main .dataDates .space {
+  margin-top: 25vh;
+}
+body main .dataDates .datesContainerLatam {
+  margin-bottom: 15vh;
+}
+body main .dataDates .datesContainerLatam .fechas {
+  margin-top: 10vh;
+  text-align: center;
+}
+body main .dataDates .datesContainerLatam .seccionDos {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(15, auto);
+  grid-auto-flow: column;
+  gap: 5vh;
+  list-style-type: none;
+  padding: 0;
+}
+body main .dataDates .datesContainerLatam .seccionDos li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vh;
+  height: 8vh;
+}
+body main .dataDates .datesContainerLatam .seccionDos li .entradas {
+  color: inherit;
+  text-decoration: none;
+  margin-top: 2.5vh;
+  max-width: 25vh;
+  max-height: 22.3vh;
+  transition: all 500ms ease;
+}
+body main .dataDates .datesContainerLatam .seccionDos li .entradas .dataTour {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  text-align: left;
+  width: 60vh;
+  height: 5vh;
+}
+body main .dataDates .datesContainerLatam .seccionDos li .entradas .dataTour .carmesi {
+  color: rgb(220, 20, 60);
+  margin-left: 5vh;
+}
+body main .dataDates .datesContainerLatam .seccionDos li .entradas .dataTour .blan {
+  color: white;
+}
+body main .dataDates .datesContainerLatam .seccionDos li .entradas .dataTour .lugar {
+  margin-left: 5vh;
+  text-align: left;
+  font-size: 20px;
+}
+body main .dataDates .datesContainerLatam .seccionDos li .entradas .dataTour .lugar .blan {
+  color: white;
+}
+body main .dataDates .datesContainerLatam .seccionDos li .entradas .dataTour .lugar .grey {
+  color: rgb(220, 20, 60);
+  margin-top: -3vh;
+  font-size: 10px;
+}
+body main .dataDates .datesContainerLatam .seccionDos li .entradas .agotado {
+  color: rgb(138, 43, 226);
+  filter: drop-shadow(0px 5px 5px rgb(138, 43, 226));
+}
+body main .dataDates .datesContainerLatam .seccionDos li .entradas:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0px 5px 5px rgb(220, 20, 60));
+}
+body main .dataDates .datesContainerEuro {
+  margin-bottom: 15vh;
+}
+body main .dataDates .datesContainerEuro .fechas {
+  margin-top: 10vh;
+  text-align: center;
+}
+body main .dataDates .datesContainerEuro .seccionTres {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(7, auto);
+  grid-auto-flow: column;
+  gap: 5vh;
+  list-style-type: none;
+  padding: 0;
+}
+body main .dataDates .datesContainerEuro .seccionTres li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70vh;
+  height: 8vh;
+}
+body main .dataDates .datesContainerEuro .seccionTres li .entradas {
+  color: inherit;
+  text-decoration: none;
+  margin-top: 2.5vh;
+  max-width: 25vh;
+  max-height: 22.3vh;
+  transition: all 500ms ease;
+}
+body main .dataDates .datesContainerEuro .seccionTres li .entradas .dataTour {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  text-align: left;
+  width: 60vh;
+  height: 5vh;
+}
+body main .dataDates .datesContainerEuro .seccionTres li .entradas .dataTour .carmesi {
+  color: rgb(220, 20, 60);
+  margin-left: 5vh;
+}
+body main .dataDates .datesContainerEuro .seccionTres li .entradas .dataTour .doblenum {
+  font-size: 10px;
+}
+body main .dataDates .datesContainerEuro .seccionTres li .entradas .dataTour .blan {
+  color: white;
+}
+body main .dataDates .datesContainerEuro .seccionTres li .entradas .dataTour .lugar {
+  margin-left: 5vh;
+  text-align: left;
+  font-size: 20px;
+}
+body main .dataDates .datesContainerEuro .seccionTres li .entradas .dataTour .lugar .blan {
+  color: white;
+}
+body main .dataDates .datesContainerEuro .seccionTres li .entradas .dataTour .lugar .grey {
+  color: rgb(220, 20, 60);
+  margin-top: -3vh;
+  font-size: 10px;
+}
+body main .dataDates .datesContainerEuro .seccionTres li .entradas .agotado {
+  color: rgb(138, 43, 226);
+  filter: drop-shadow(0px 5px 5px rgb(138, 43, 226));
+}
+body main .dataDates .datesContainerEuro .seccionTres li .entradas:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0px 5px 5px rgb(220, 20, 60));
+}
+body .fondo_musica {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.455), rgba(0, 0, 0, 0.541)), url(/image/duki-banner.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+body .fondo_musica .etiA {
+  text-decoration: none;
+  color: white;
+}
+body .fondo_musica .navegadores {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+body .fondo_musica .navegadores .icons {
+  height: 10vh;
+  width: 10vh;
+  margin-top: 15vh;
+  margin-bottom: -3vh;
+}
+body .fondo_musica .spoti_duki {
+  background-color: rgba(183, 185, 187, 0.492);
+  margin: 5vh;
+  max-width: 73vh;
+  max-height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+body .fondo_musica .spoti_duki iframe {
+  margin: 10px;
+}
+body .fondo_musica .lanzamientos {
+  background-color: rgba(183, 185, 187, 0.492);
+  margin-bottom: 5vh;
+  width: 73vh;
+  height: 55vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+body .fondo_musica .lanzamientos iframe {
+  margin: 10px;
+}
+body .fondo_historia {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.455), rgba(0, 0, 0, 0.541)), url(/image/duki-banner-2.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .fondo_historia .etiA {
+  text-decoration: none;
+  color: white;
+}
+body .fondo_historia .navegadores {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+body .fondo_historia .navegadores .icons {
+  height: 10vh;
+  width: 10vh;
+  margin-top: 15vh;
+  margin-bottom: -3vh;
+}
+body .fondo_historia .duki_historia {
+  text-align: center;
+  max-width: 100vh;
+  color: white;
+}
+body .fondo_historia .caja_negra {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  max-width: 100vh;
+  margin: 15vh 0vh 10vh 0vh;
+  color: white;
+}
+body footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body footer .redes {
+  transition: all 300ms;
+}
+body footer .redes img {
+  display: table-row;
+  margin: 40px;
+  height: 5vh;
+  width: 5vh;
+  color: inherit;
+  text-decoration: none;
+  max-width: 25vh;
+  max-height: 22.3vh;
+  transition: all 500ms ease;
+}
+body footer .redes img:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(5px 5px 5px rgb(220, 20, 60));
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,655 @@
+body{
+    background-color: black;
+
+    font-family: "Krona One", sans-serif;
+    font-style: normal;
+
+    margin: 0px;
+    padding: 0px;
+    
+
+    //Esto es el header//
+    .baners{
+        display: flex;
+        justify-content: space-between;
+        
+        height: 17vh;
+        width: 100%;
+    
+        margin-top: 5vh;
+        margin-bottom: 2vh;
+        
+        .logos{
+            height: 12vh;
+            width: 25vh;
+            margin: 2vh;
+        }
+
+        a{
+            text-decoration: none;
+            color: white;
+            .duki_logo{
+                height: 15vh;
+                width: 15vh;
+                margin-right: 0vh;
+
+            }
+        }
+    }
+
+    main{
+        .naveg {
+            margin-top: 5vh;
+          
+            a {
+              text-decoration: none;
+              color: white;
+          
+                .musica{
+                    background-image: url(/image/duki-banner.jpg);
+                    background-position: 0% 60%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    filter: grayscale(100%);
+                    transition: all 500ms ease;
+                
+                    height: 30vh;
+                
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    
+                    .navegadores{
+                        text-align: center;
+                        
+                        .icons{
+                            height: 10vh;
+                            width: 10vh;
+                        
+                            margin-bottom: -3vh
+                        }
+                        
+                        h3{
+                            font-size:xx-large;
+                            text-align: center;
+                            color: rgb(220, 20, 60);
+                        }
+                    }
+                }
+                .musica:hover{
+                    transform: scale(1.1);
+                
+                    filter: grayscale(0%);
+                    transition: 0.5s ease-in;
+                }
+                
+
+                .historia{
+                    background-image: url(/image/duki-banner-2.jpg);
+                    background-position: 0% 35%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    filter: grayscale(100%);
+                    transition: all 500ms ease;
+                
+                    height: 30vh;
+                    margin-top: 2vh;
+                
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    .navegadores{
+                        text-align: center;
+                        
+                        .icons{
+                            height: 10vh;
+                            width: 10vh;
+                        
+                            margin-bottom: -3vh
+                        }
+                        
+                        h3{
+                            font-size:xx-large;
+                            text-align: center;
+                            color: rgb(220, 20, 60);
+                        }
+                    }
+                }
+                .historia:hover{
+                    transform: scale(1.1);
+                
+                    filter: grayscale(0%);
+                    transition: 0.5s ease-in;
+                }
+
+
+                
+                .shop {
+                    background-image: url(/image/duki-banner-3.jpg);
+                    background-position: 0% 20%;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    filter: grayscale(100%);
+                    transition: all 500ms ease;
+                
+                    height: 30vh;
+                    margin-top: 2vh;
+                
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+
+                    .navegadores{
+                        text-align: center;
+                        
+                        .icons{
+                            height: 10vh;
+                            width: 10vh;
+                        
+                            margin-bottom: -3vh
+                        }
+                        
+                        h3{
+                            font-size:xx-large;
+                            text-align: center;
+                            color: rgb(220, 20, 60);
+                        }
+                    }
+                }
+                .shop:hover{
+                    transform: scale(1.1);
+                
+                    filter: grayscale(0%);
+                    transition: 0.5s ease-in;
+                }
+            }
+        }
+
+        .dataDates{
+            background-image:linear-gradient(0deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 100%),url(./image/duki-banner-3.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment:fixed;
+        
+            margin-top: 10vh;
+            
+            padding: 15vh 0 15vh 0;
+
+            h3{
+                font-size:xx-large;
+                text-align: center;
+                
+                color: white;
+            }
+
+            .datesContainerNort{
+                margin-bottom: 15vh;
+
+                .fechas{
+                    margin-top: 10vh;
+                    
+                    text-align: center;
+                }
+
+                .seccionUno{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr; 
+                    grid-template-rows: repeat(6, auto);
+                    grid-auto-flow: column; 
+                    gap: 5vh;
+                    
+                    list-style-type: none;
+                    padding: 0;
+
+                    li{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    
+                        width: 70vh;
+                        height: 8vh;
+                    
+                        .entradas{
+                            color: inherit;
+                            text-decoration: none; 
+                            
+                            margin-top: 2.5vh;
+                            max-width: 25vh;
+                            max-height: 22.3vh;
+                            
+                            transition: all 500ms ease;
+                            
+                            
+                            .dataTour{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: left;
+                                align-items: center;
+                                
+                                text-align: left;
+                                
+                                width: 60vh;
+                                height: 5vh;
+    
+                                .carmesi{
+                                    color: rgb(220, 20, 60);
+                                
+                                    margin-left: 5vh;
+                                }
+                                
+                                .blan{
+                                    color: white;
+                                }
+                                
+                                .lugar{
+                                    margin-left: 5vh;
+                                
+                                    text-align: left;
+                                    font-size: 20px;   
+                                
+                                    .blan{
+                                        color: white;
+                                    }
+    
+                                    .grey{
+                                        color: rgb(220, 20, 60);
+                                        margin-top: -3vh;
+                                    
+                                        font-size: 10px;
+                                    }
+                                }
+                            }
+    
+                            .agotado{
+                                color: rgb(138, 43, 226);
+                                filter: drop-shadow(0px 5px 5px rgb(138, 43, 226));
+                            }
+    
+                        }
+                        .entradas:hover{  
+                            transform: scale(1.1);
+                            
+                            filter: drop-shadow(0px 5px 5px rgb(220, 20, 60));
+                        }
+                    }                    
+                }
+            }
+
+            .space{
+                margin-top: 25vh;
+            }
+            
+            .datesContainerLatam{
+                margin-bottom: 15vh;
+                
+                .fechas{
+                    margin-top: 10vh;
+                    
+                    text-align: center;
+                }
+
+                .seccionDos{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr; 
+                    grid-template-rows: repeat(15, auto);
+                    grid-auto-flow: column; 
+                    gap: 5vh;
+                    
+                    list-style-type: none;
+                    padding: 0;
+                    
+                    li{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    
+                        width: 70vh;
+                        height: 8vh;
+                    
+                        .entradas{
+                            color: inherit;
+                            text-decoration: none; 
+                            
+                            margin-top: 2.5vh;
+                            max-width: 25vh;
+                            max-height: 22.3vh;
+                            
+                            transition: all 500ms ease;
+                            
+                            
+                            .dataTour{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: left;
+                                align-items: center;
+                                
+                                text-align: left;
+                                
+                                width: 60vh;
+                                height: 5vh;
+    
+                                .carmesi{
+                                    color: rgb(220, 20, 60);
+                                
+                                    margin-left: 5vh;
+                                }
+                                
+                                .blan{
+                                    color: white;
+                                }
+                                
+                                .lugar{
+                                    margin-left: 5vh;
+                                
+                                    text-align: left;
+                                    font-size: 20px;   
+                                
+                                    .blan{
+                                        color: white;
+                                    }
+    
+                                    .grey{
+                                        color: rgb(220, 20, 60);
+                                        margin-top: -3vh;
+                                    
+                                        font-size: 10px;
+                                    }
+                                }
+                            }
+    
+                            .agotado{
+                                color: rgb(138, 43, 226);
+                                filter: drop-shadow(0px 5px 5px rgb(138, 43, 226));
+                            }
+    
+                        }
+                        .entradas:hover{  
+                            transform: scale(1.1);
+                            
+                            filter: drop-shadow(0px 5px 5px rgb(220, 20, 60));
+                        }
+                    }
+                }
+            }
+
+            .datesContainerEuro{
+                margin-bottom: 15vh;
+                
+                .fechas{
+                    margin-top: 10vh;
+                    
+                    text-align: center;
+                }
+
+                .seccionTres{
+                    display: grid;
+                    grid-template-columns: 1fr 1fr; 
+                    grid-template-rows: repeat(7, auto);
+                    grid-auto-flow: column; 
+                    gap: 5vh;
+                    
+                    list-style-type: none;
+                    padding: 0;
+                    
+                    li{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    
+                        width: 70vh;
+                        height: 8vh;
+
+                        .entradas{
+                            color: inherit;
+                            text-decoration: none; 
+                            
+                            margin-top: 2.5vh;
+                            max-width: 25vh;
+                            max-height: 22.3vh;
+                            
+                            transition: all 500ms ease;
+                            
+                            
+                            .dataTour{
+                                display: flex;
+                                flex-direction: row;
+                                justify-content: left;
+                                align-items: center;
+                                
+                                text-align: left;
+                                
+                                width: 60vh;
+                                height: 5vh;
+    
+                                .carmesi{
+                                    color: rgb(220, 20, 60);
+                                
+                                    margin-left: 5vh;
+                                }
+    
+                                .doblenum{
+                                    font-size: 10px;
+                                }
+                                
+                                .blan{
+                                    color: white;
+                                }
+                                
+                                .lugar{
+                                    margin-left: 5vh;
+                                
+                                    text-align: left;
+                                    font-size: 20px;   
+                                
+                                    .blan{
+                                        color: white;
+                                    }
+    
+                                    .grey{
+                                        color: rgb(220, 20, 60);
+                                        margin-top: -3vh;
+                                    
+                                        font-size: 10px;
+                                    }
+                                }
+                            }
+                            
+                            .agotado{
+                                color: rgb(138, 43, 226);
+                                filter: drop-shadow(0px 5px 5px rgb(138, 43, 226));
+                            }
+                        }
+                        .entradas:hover{  
+                            transform: scale(1.1);
+                            
+                            filter: drop-shadow(0px 5px 5px rgb(220, 20, 60));
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    //SEPARACION INDEX.HTML A MUSICA.HTML//
+
+
+    .fondo_musica{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.455), rgba(0, 0, 0, 0.541)), 
+        url(/image/duki-banner.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        color: white;
+        
+        .etiA{
+            text-decoration: none;
+
+            color: white;
+        }
+
+        .navegadores{
+            text-decoration: none;
+            text-align: center;
+
+            color: white;
+
+
+            .icons{
+                height: 10vh;
+                width: 10vh;
+                
+                margin-top: 15vh;
+                margin-bottom: -3vh
+            }
+        }
+
+        .spoti_duki{
+            background-color: rgba(183, 185, 187, 0.492);
+    
+            margin: 5vh;
+        
+            max-width: 73vh;
+            max-height: 55vh;
+        
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+            border-radius: 10px;
+        }
+        
+        .spoti_duki iframe{
+            margin: 10px;
+        }
+
+
+        .lanzamientos{
+            background-color: rgba(183, 185, 187, 0.492);
+    
+            margin-bottom: 5vh;
+        
+            width: 73vh;
+            height: 55vh;
+        
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+            border-radius: 15px;
+        }
+
+        .lanzamientos iframe{
+            margin: 10px;
+        }
+    }
+
+
+    
+    //SEPARACION DE MUSICA.HTML A HISTORIAS.HTML//
+
+    .fondo_historia{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.455), rgba(0, 0, 0, 0.541)), 
+        url(/image/duki-banner-2.jpg);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+        .etiA{
+            text-decoration: none;
+
+            color: white;
+        }
+
+        .navegadores{
+            text-decoration: none;
+            text-align: center;
+
+            color: white;
+
+
+            .icons{
+                height: 10vh;
+                width: 10vh;
+                
+                margin-top: 15vh;
+                margin-bottom: -3vh
+            }
+        }
+
+        .duki_historia{
+            text-align: center;
+        
+            max-width: 100vh;
+        
+            color: white;
+        }
+
+        .caja_negra{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        
+            text-align: center;
+        
+            max-width: 100vh;
+        
+            margin: 15vh 0vh 10vh 0vh;
+        
+            color: white;
+        }
+    }
+
+
+
+
+
+    footer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        .redes{
+            transition: all 300ms;
+            
+            img{
+                display: table-row;
+
+                margin: 40px;
+            
+                height: 5vh;
+                width: 5vh;
+            
+                color: inherit;
+                text-decoration: none; 
+                
+                max-width: 25vh;
+                max-height: 22.3vh;
+                
+                transition: all 500ms ease;
+            }
+
+            img:hover{
+                transform: scale(1.1);
+    
+                filter: drop-shadow(5px 5px 5px rgb(220, 20, 60));
+            }
+        }
+    }
+
+}
