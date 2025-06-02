@@ -33,9 +33,48 @@ body main .naveg {
 body main .naveg a {
   text-decoration: none;
   color: white;
+  /* .shop {
+      : url(../image/duki-banner-3.jpg);
+      background-position: 0% 20%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      filter: grayscale(100%);
+      transition: all 500ms ease;
+
+      height: 30vh;
+      margin-top: 2vh;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+      .navegadores{
+          text-align: center;
+
+          .icons{
+              height: 10vh;
+              width: 10vh;
+
+              margin-bottom: -3vh
+          }
+
+          h3{
+              font-size:xx-large;
+              text-align: center;
+              color: rgb(220, 20, 60);
+          }
+      }
+  }
+  .shop:hover{
+      transform: scale(1.1);
+
+      filter: grayscale(0%);
+      transition: 0.5s ease-in;
+  } */
 }
 body main .naveg a .musica {
-  background-image: url(/image/duki-banner.jpg);
+  background-image: url(../image/duki-banner.jpg);
   background-position: 0% 60%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -65,7 +104,7 @@ body main .naveg a .musica:hover {
   transition: 0.5s ease-in;
 }
 body main .naveg a .historia {
-  background-image: url(/image/duki-banner-2.jpg);
+  background-image: url(../image/duki-banner-2.jpg);
   background-position: 0% 35%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -95,39 +134,8 @@ body main .naveg a .historia:hover {
   filter: grayscale(0%);
   transition: 0.5s ease-in;
 }
-body main .naveg a .shop {
-  background-image: url(/image/duki-banner-3.jpg);
-  background-position: 0% 20%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: grayscale(100%);
-  transition: all 500ms ease;
-  height: 30vh;
-  margin-top: 2vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-body main .naveg a .shop .navegadores {
-  text-align: center;
-}
-body main .naveg a .shop .navegadores .icons {
-  height: 10vh;
-  width: 10vh;
-  margin-bottom: -3vh;
-}
-body main .naveg a .shop .navegadores h3 {
-  font-size: xx-large;
-  text-align: center;
-  color: rgb(220, 20, 60);
-}
-body main .naveg a .shop:hover {
-  transform: scale(1.1);
-  filter: grayscale(0%);
-  transition: 0.5s ease-in;
-}
 body main .dataDates {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(./image/duki-banner-3.jpg);
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url(../image/duki-banner-3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -350,7 +358,7 @@ body main .dataDates .datesContainerEuro .seccionTres li .entradas:hover {
   filter: drop-shadow(0px 5px 5px rgb(220, 20, 60));
 }
 body .fondo_musica {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.455), rgba(0, 0, 0, 0.541)), url(/image/duki-banner.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.455), rgba(0, 0, 0, 0.541)), url(../image/duki-banner.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -403,7 +411,7 @@ body .fondo_musica .lanzamientos iframe {
   margin: 10px;
 }
 body .fondo_historia {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.455), rgba(0, 0, 0, 0.541)), url(/image/duki-banner-2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.455), rgba(0, 0, 0, 0.541)), url(../image/duki-banner-2.jpg);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
